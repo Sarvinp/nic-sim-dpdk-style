@@ -11,9 +11,16 @@ This project simulates basic NIC packet flow using custom C++ implementations of
 - Continuous packet simulation with timestamps and graceful shutdown
 
 ## 📁 Project Structure
+```text
+DPDKproj/
+├── CMakeLists.txt
+├── main.cpp
+├── rte_sim.h
+├── rte_sim.cpp
+├── nic_simulator.h
+└── nic_simulator.cpp
 
-DPDKproj/ ├── CMakeLists.txt ├── main.cpp ├── rte_sim.h ├── rte_sim.cpp ├── nic_simulator.h └── nic_simulator.cpp
-
+```
 
 ## 🚀 Getting Started
 
